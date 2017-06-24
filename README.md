@@ -1,8 +1,27 @@
-## Welcome to GitHub Pages
+### TEAM 2
 
-You can use the [editor on GitHub](https://github.com/telecombcn-dl/2017-dlcv-team2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+During the the Deep Learning for Computer Vison course at UPC at Summer 2017, we have completed some tasks:
+
+### TASK 1
+The aim of task 1 is to create a neural network and explore its behaviour when changing parameters such as: number of layers, batch size, epochs...
+In order to do that the task is composed by subtasks:
+1.1 - Architecture
+1.2 - Training
+1.3 - Visualization
+
+### TASK 2
+Once we have selected the best configuration for our network, in task 2 we will validate it using Terrassa Buildings dataset. By doing it, we will be able to see how our network interacts with a completely different dataset.
+In task 2, we have to also evaluate a model trained by ImageNet with the Terrassa Buildings dataset.
+
+### TASK 3
+Task 3 consists on fine-tunning a model trained using ImageNet, with the Terrassa Buildings dataset and validate the results with this same dataset.
+
+### TASK 4
+During task 4 we have to improve the performance of the previous network, exploring different possibilities for obtaining better results.
+
+### TASK 5
+Task 5 is an open project, we have chosen a style transfer network.
 
 ### Markdown
 
@@ -28,10 +47,4 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/telecombcn-dl/2017-dlcv-team2/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
