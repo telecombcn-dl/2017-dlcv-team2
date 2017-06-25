@@ -43,3 +43,7 @@ If we increase the weight of the content loss (Weight content loss = 50) the res
 
 <img src="utils/mandala2.png" alt="hi" class="inline"/>
 
+We have trainned the network with different styles: <br>
+
+<img src="utils/square.png" alt="hi" class="inline"/>
+
