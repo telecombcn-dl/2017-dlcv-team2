@@ -26,6 +26,10 @@ The most important part in style transfer networks is the loss function. We can 
 
 <img src="utils/wave20_14.png" alt="hi" width="350" height="198" class="inline"/><img src="utils/wave98_14.png" alt="hi" width="350" height="198" class="inline"/>
 
+Another important aspect in every network is how much time we let the network learn, here we can see an evolution of the output image depending on the epoch, with a content loss weight equal to 15. As can be seen, as we increase the number of epochs the information of the image is more clear. In that case we have chosen a mandala as the style image.
+
+<img src="utils/epoch.png" alt="hi" class="inline"/>
+
 
 ### Markdown
 
