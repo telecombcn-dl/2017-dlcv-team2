@@ -1,6 +1,4 @@
-<center>### TEAM 2</center>
-
-
+# TEAM 2
 During the the Deep Learning for Computer Vison course at UPC at Summer 2017, we have completed some tasks:
 
 ### TASK 1
@@ -8,9 +6,9 @@ The aim of task 1 is to create a neural network and explore its behaviour when c
 
 In order to do that the task is composed by subtasks:<br>
 
-1.1 - Architecture<br>
-1.2 - Training<br>
-1.3 - Visualization<br>
+1.1 Architecture<br>
+1.2 Training<br>
+1.3 Visualization<br>
 
 ### TASK 2
 Once we have selected the best configuration for our network, in task 2 we will validate it using Terrassa Buildings dataset. By doing it, we will be able to see how our network interacts with a completely different dataset.
