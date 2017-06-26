@@ -15,10 +15,8 @@ Once we have selected the best configuration for our network, in task 2 we will 
 
 In task 2, we have to also evaluate a model trained by ImageNet with the Terrassa Buildings dataset. For this purpose, we are going to explore how we can train a softmax classifier on top of the ResNet-50 trained on Imagenet. For that we are going to load first the ResNet-50. Then, we will also have to load the database. The database parsing is done on another function and the outputs are saved on "imageTrain.npy" and "labels.npy". We will also divide the database into train and test, using sklearn.
 This leads to the following results:
-'''
-Epoch 20/20
-597/597 [==============================] - 14s - loss: 0.0418 - acc: 1.0000 - val_loss: 0.3464 - val_acc: 0.8983
-'''
+'<Epoch 20/20
+597/597 [==============================] - 14s - loss: 0.0418 - acc: 1.0000 - val_loss: 0.3464 - val_acc: 0.8983>'
 
 ### TASK 3
 Task 3 consists on fine-tunning a model trained using ImageNet, with the Terrassa Buildings dataset and validate the results with this same dataset. For this, we are going to Fine-Tune the same network of 2.2 with the Terrassa database.
