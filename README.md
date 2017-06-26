@@ -12,6 +12,7 @@ In order to do that the task is composed by subtasks:<br>
 | ------ |
 |<img src="utils/model_fc.png" alt="hi" class="inline" height="200"/>|
 
+
 #### 4-Conv2D+3FC NETWORK
 
 | Architecture |
@@ -25,12 +26,14 @@ In order to do that the task is composed by subtasks:<br>
 | 100 Epochs | 200 Epochs |
 | ------ | ------ |
 | <img src="utils/acc_hist_100_FC.png" alt="hi" class="inline" height="200"/> | <img src="utils/acc_hist_200_FC.png" alt="hi" class="inline" height="200"/> |
+| Validation Accuracy: 36 %  | Validation Accuracy: 35% |
 
 #### 4-Conv2D+3FC NETWORK TRAINING
 
 | Without Data Augmentation | With Data Augmentation|
 | ------ | ------ |
 | <img src="utils/acc_hist_200_0_CNN_nda_nbn.png" class="inline" height="200"/> | <img src="utils/acc_hist_200_0_CNN_da_nbn.png" class="inline" height="200"/> |
+| Validation Accuracy: 73 %  | Validation Accuracy: 81 % |
 
 | With Dropout|
 | ------ |
