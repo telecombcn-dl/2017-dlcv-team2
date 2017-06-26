@@ -71,7 +71,7 @@ Image on the left corresponds to the own trained model on [CIFAR-10 dataset](htt
 
 
 #### ACTIVATION MAPS
-Attention maps are a family of methods that try to answer these questions by generating a heatmap over input image that most contributed towards maximizing the probability of an output class.
+Attention maps are a family of methods which by generating a heatmap over input image that most contributed towards maximizing the probability of an output class.
 
 One more time, by means of [Keras-vis](https://raghakot.github.io/keras-vis/) is possible to generate the following heatmaps adopting the [grad-CAM method](https://arxiv.org/pdf/1610.02391v1.pdf).
 
