@@ -30,7 +30,7 @@ In order to do that the task is composed by subtasks:<br>
 
 | Without Data Augmentation | With Data Augmentation|
 | ------ | ------ |
-|<img src="utils/.png" alt="hi" class="inline" height="200"/> | <img src="utils/.png" alt="hi" class="inline" height="200"/>|
+| <img src="utils/acc_hist_200_0_CNN_nda_nbn.png" class="inline" height="200"/> | <img src="utils/acc_hist_200_0_CNN_da_nbn.png" class="inline" height="200"/> |
 
 | With Dropout|
 | ------ |
@@ -44,23 +44,16 @@ In order to do that the task is composed by subtasks:<br>
 
 #### FILTER RESPONSES
 
-| 4-Conv2D+3FC |
-| ------ |
-|<img src="utils/.png" alt="hi" class="inline" height="200"/>|
+| 4-Conv2D+3FC | VGG16 (Imagenet)|
+| ------ | ------ |
+|<img src="utils/.png" alt="hi" class="inline" height="200"/>| <img src="utils/.png" alt="hi" class="inline" height="200"/>|
 
-| VGG16 (Imagenet)|
-| ------ |
-|<img src="utils/.png" alt="hi" class="inline" height="200"/>|
 
 #### ACTIVATION MAPS
 
-| 4-Conv2D+3FC |
-| ------ |
-|<img src="utils/.png" alt="hi" class="inline" height="200"/>|
-
-| VGG16 (Imagenet)|
-| ------ |
-|<img src="utils/.png" alt="hi" class="inline" height="200"/>|
+| 4-Conv2D+3FC | VGG16 (Imagenet)|
+| ------ | ------ |
+|<img src="utils/.png" alt="hi" class="inline" height="200"/>| <img src="utils/.png" alt="hi" class="inline" height="200"/>|
 
 ## TASK 2
 Once we have selected the best configuration for our network, in task 2 we will validate it using Terrassa Buildings dataset. By doing it, we will be able to see how our network interacts with a completely different dataset. In order to do this, we must preserve all the network with the exception of the last layer, which has to be replaced for another softmax classifier but with 13 classes instead of 10 like in the case of cifar10. Then, we trained it and obtained the following results:
