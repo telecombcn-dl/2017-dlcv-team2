@@ -43,5 +43,5 @@ If we increase the weight of the content loss (Weight content loss = 50) the res
 
 We have trainned the network with different styles: <br>
 
-<img src="utils/square.png" alt="hi" class="inline"/>
+<img src="utils/styles.png" alt="hi" class="inline"/>
 
