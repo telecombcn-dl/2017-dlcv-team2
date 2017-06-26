@@ -6,6 +6,9 @@ The aim of task 1 is to create a neural network and explore its behaviour when c
 
 In order to do that the task is composed by subtasks:<br>
 ### ARCHITECTURE 
+
+Two differents architecures has been developed in order to check how the performance evolves when it is evaluted on the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html).
+
 #### 2-FC NETWORK
 
 | Architecture |
@@ -21,7 +24,11 @@ In order to do that the task is composed by subtasks:<br>
 
 ### 1.2 TRAINING
 
+In order to show how to train both networks, different parameters has been added to the training procedure. Step by step, training features such as epochs number, data augmentation or batch normalization has been implemented. 
+
 #### 2-FC NETWORK TRAINING
+
+It is clear, that due to the simplicity of the network the accuracy is stacked on low levels. 
 
 | 100 Epochs | 200 Epochs |
 | ------ | ------ |
@@ -29,6 +36,8 @@ In order to do that the task is composed by subtasks:<br>
 | Validation Accuracy: 36 %  | Validation Accuracy: 35% |
 
 #### 4-Conv2D+3FC NETWORK TRAINING
+
+In order to improve the previous step, a more complex network has been implemented. Afterwards, data augmentation has been used in order to avoid overfitting.
 
 | Without Data Augmentation | With Data Augmentation|
 | ------ | ------ |
@@ -38,6 +47,8 @@ In order to do that the task is composed by subtasks:<br>
 | With Dropout|
 | ------ |
 |<img src="utils/.png" alt="hi" class="inline" height="200"/>|
+
+Finally, batch normalization mechanism which acts as a regularizer, in some cases eliminating the need for Dropout.
 
 | With Batch Normalization|
 | ------ |
