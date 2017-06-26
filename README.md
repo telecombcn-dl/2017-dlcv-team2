@@ -50,7 +50,7 @@ An aggresive dropout [0.25, 0.5, 0.75] has been set in order how to affects the 
 | ------ |
 |<img src="utils/acc_hist_200_5_CNN_da_nbn.png" alt="hi" class="inline" height="200"/>|
 
-Finally, batch normalization mechanism which acts as a regularizer, in some cases eliminating the need for Dropout.
+Finally, batch normalization mechanism which acts as a regularizer, in some cases eliminating the need for Dropout, has been implemented. Normalization is done at each layer for the batch before the activation function.
 
 | With Batch Normalization|
 | ------ |
