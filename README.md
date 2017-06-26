@@ -45,7 +45,14 @@ In order to do that the task is composed by subtasks:<br>
 
 ### 1.3 VISUALIZATION
 
+The visualizations were carried out by means of a high-level toolkit for visualization and debug of trained keras neural networks provided by [Keras-vis](https://raghakot.github.io/keras-vis/).
+
 #### FILTER RESPONSES
+
+Each conv layer has several learned 'template matching' filters that maximize their output when a similar template pattern is found in the input image. This makes the first conv net layer highly interpretable by simply visualizing their weights as it is operating over raw pixels. One way of interpreting them is to generate an input image that maximizes the filter output.
+So, by means of the keras-vis toolkit is easy to generate the following stitched image representing input image(s) that maximize the filter index output (number over the image). They mostly seem to match for specific color and directional patterns.
+
+Image on the left corresponds to the own trained model on [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html) and the following one belongs to a [VGG-16](https://gist.github.com/baraldilorenzo/07d7802847aaad0a35d3) pre-trained model on [Imagenet dataset](http://www.image-net.org).
 
 | 4-Conv2D+3FC | VGG16 (Imagenet)|
 | ------ | ------ |
@@ -53,6 +60,9 @@ In order to do that the task is composed by subtasks:<br>
 
 
 #### ACTIVATION MAPS
+Attention maps are a family of methods that try to answer these questions by generating a heatmap over input image that most contributed towards maximizing the probability of an output class.
+
+One more time, by means of [Keras-vis](https://raghakot.github.io/keras-vis/) is possible to generate the following heatmaps adopting the [grad-CAM method](https://arxiv.org/pdf/1610.02391v1.pdf).
 
 | 4-Conv2D+3FC | VGG16 (Imagenet)|
 | ------ | ------ |
