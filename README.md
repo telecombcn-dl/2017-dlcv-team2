@@ -46,14 +46,14 @@ In order to do that the task is composed by subtasks:<br>
 
 | 4-Conv2D+3FC | VGG16 (Imagenet)|
 | ------ | ------ |
-|<img src="utils/.png" alt="hi" class="inline" height="200"/>| <img src="utils/.png" alt="hi" class="inline" height="200"/>|
+|<img src="utils/visualization_cnn_conv1.png" alt="hi" class="inline" height="200"/>| <img src="utils/visualization_vgg16_block1_conv1.png" alt="hi" class="inline" height="200"/>|
 
 
 #### ACTIVATION MAPS
 
 | 4-Conv2D+3FC | VGG16 (Imagenet)|
 | ------ | ------ |
-|<img src="utils/.png" alt="hi" class="inline" height="200"/>| <img src="utils/.png" alt="hi" class="inline" height="200"/>|
+|<img src="utils/activation_map_cnn.png" alt="hi" class="inline" height="200"/>| <img src="utils/activation_map_vgg16.png" alt="hi" class="inline" height="200"/>|
 
 ## TASK 2
 Once we have selected the best configuration for our network, in task 2 we will validate it using Terrassa Buildings dataset. By doing it, we will be able to see how our network interacts with a completely different dataset. In order to do this, we must preserve all the network with the exception of the last layer, which has to be replaced for another softmax classifier but with 13 classes instead of 10 like in the case of cifar10. Then, we trained it and obtained the following results:
