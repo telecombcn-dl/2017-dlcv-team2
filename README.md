@@ -44,9 +44,11 @@ In order to improve the previous step, a more complex network has been implement
 | <img src="utils/acc_hist_200_0_CNN_nda_nbn.png" class="inline" height="200"/> | <img src="utils/acc_hist_200_0_CNN_da_nbn.png" class="inline" height="200"/> |
 | Validation Accuracy: 73 %  | Validation Accuracy: 81 % |
 
+An aggresive dropout [0.25, 0.5, 0.75] has been set in order how to affects the networks to the training performance. As clear shows the next graph, dropout not improve the validation accuracy results.
+
 | With Dropout|
 | ------ |
-|<img src="utils/.png" alt="hi" class="inline" height="200"/>|
+|<img src="utils/acc_hist_200_5_CNN_da_nbn.png" alt="hi" class="inline" height="200"/>|
 
 Finally, batch normalization mechanism which acts as a regularizer, in some cases eliminating the need for Dropout.
 
