@@ -22,6 +22,7 @@ This leads to the following results:
 Task 3 consists on fine-tunning a model trained using ImageNet, with the Terrassa Buildings dataset and validate the results with this same dataset. For this, we are going to Fine-Tune the same network of 2.2 with the Terrassa database.
 We first create the model we are going to use. In this case, we are going to train 101 layers inside the network (we will also work with a lower learning rate because we don't want to shift the pre-trained weights too much).
 Finally, we obtain the following results:
+
 '''
 Epoch 25/25
 597/597 [==============================] - 11s - loss: 1.7471e-04 - acc: 1.0000 - val_loss: 0.2900 - val_acc: 0.9322
@@ -31,6 +32,7 @@ Epoch 25/25
 During task 4 we have to improve the performance of the previous network, exploring different possibilities for obtaining better results. For this, we are going to Fine-Tune the same network of 2.2 with the Terrassa database.
 In this case, we are going to train 101 layers inside the network. We have also created a LRReducer so that we can modify the learning rate when the validation accuracy stops improving (we will also work with a lower learning rate because we don't want to shift the pre-trained weights too much). Also, we will create a data augmentation framework for the Training and Validation datasets.
 Finally, we obtain the following results:
+
 '''
 Epoch 25/25
 18/18 [==============================] - 16s - loss: 0.0186 - acc: 0.9983 - val_loss: 0.2651 - val_acc: 0.9278
