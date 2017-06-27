@@ -92,6 +92,7 @@ One more time, by means of [Keras-vis](https://raghakot.github.io/keras-vis/) is
 ## TASK 2
 Once we have selected the best configuration for our network, in task 2 we will validate it using Terrassa Buildings dataset. By doing it, we will be able to see how our network interacts with a completely different dataset. In order to do this, we must preserve all the network with the exception of the last layer, which has to be replaced for another softmax classifier but with 13 classes instead of 10 like in the case of cifar10. Then, we trained it and obtained the following results:
 
+<img src="utils/1.png" alt="hi" height="200" class="inline"/>
 
 The network is very simple and also the images which have been used to train it have no buildings in it, so the network is not able to extract features that will characterize buildings. What is more, the images have to been resized in order to test them, so we have lost a lot of resolution. For those reasons the performance of the network is very poor.
 
