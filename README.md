@@ -132,6 +132,8 @@ Task 5 is an open project, we have chosen a style transfer network. <br>
 
 The code used can be found in https://github.com/lengstrom/fast-style-transfer and it is written in TensorFlow.<br>
 
+| In order to use the code uploaded in this repository, it is necessary to download imagenet-vgg-verydeep-19.mat|
+
 The most important part in style transfer networks is the loss function. We can find three different terms in the loss function implemented, a content loss, a style loss and a total variation loss. The first term, the content loss, is telling us how close our generated image is from the original one, so it will be the responsible of preserving the information found in the original image. The style loss is the one responsible of transferring the style of the chosen image to our inputs. Finally the last term of the loss is a denoising term, it is removing the noise of our generated image. Each of these terms will have a weight associated, so if we increment the weight of the content loss term we will be saying that in the generated images is more important the content of the image than the style. The opposite occurs when the weight associated to the style loss is higher. For that reason, we can play with those weights in order to see how the outputs of the network change. Here we can see an example with different weights for the different terms of the loss function, with a content loss weight equal to 15 we can see better the style of the image than in the case of a weiht of 100.<br>
 
 <img src="utils/weights.png" alt="hi" class="inline"/>
