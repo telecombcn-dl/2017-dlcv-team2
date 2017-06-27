@@ -16,7 +16,7 @@ Two differents architecures has been developed in order to check how the perform
 |<img src="utils/model_fc.png" alt="hi" class="inline" height="200"/>|
 
 
-#### 4-Conv2D+3FC NETWORK
+#### 4-Conv2D+2FC NETWORK
 
 | Architecture |
 | ------ |
@@ -35,7 +35,7 @@ It is clear, that due to the simplicity of the network the accuracy is stacked o
 | <img src="utils/acc_hist_100_FC.png" alt="hi" class="inline" height="200"/> | <img src="utils/acc_hist_200_FC.png" alt="hi" class="inline" height="200"/> |
 | Validation Accuracy: 36 %  | Validation Accuracy: 35% |
 
-#### 4-Conv2D+3FC NETWORK TRAINING
+#### 4-Conv2D+2FC NETWORK TRAINING
 
 In order to improve the previous step, a more complex network has been implemented. Afterwards, data augmentation has been used in order to avoid overfitting.
 
@@ -75,7 +75,7 @@ So, by means of the keras-vis toolkit is easy to generate the following stitched
 
 Image on the left corresponds to the own trained model on [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html) and the following one belongs to a [VGG-16](https://gist.github.com/baraldilorenzo/07d7802847aaad0a35d3) pre-trained model on [Imagenet dataset](http://www.image-net.org).
 
-| 4-Conv2D+3FC | VGG16 (Imagenet)|
+| 4-Conv2D+2FC | VGG16 (Imagenet)|
 | ------ | ------ |
 |<img src="utils/visualization_cnn_conv1.png" alt="hi" class="inline" height="200"/>| <img src="utils/visualization_vgg16_block1_conv1.png" alt="hi" class="inline" height="200"/>|
 
@@ -85,7 +85,7 @@ Attention maps are a family of methods which by generating a heatmap over input 
 
 One more time, by means of [Keras-vis](https://raghakot.github.io/keras-vis/) is possible to generate the following heatmaps adopting the [grad-CAM method](https://arxiv.org/pdf/1610.02391v1.pdf).
 
-| 4-Conv2D+3FC | VGG16 (Imagenet)|
+| 4-Conv2D+2FC | VGG16 (Imagenet)|
 | ------ | ------ |
 |<img src="utils/activation_map_cnn.png" alt="hi" class="inline" height="50"/>| <img src="utils/activation_map_vgg16.png" alt="hi" class="inline" height="50"/>|
 
