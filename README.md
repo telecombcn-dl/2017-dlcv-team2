@@ -54,7 +54,7 @@ Finally, batch normalization mechanism which acts as a regularizer, in some case
 
 | With Batch Normalization|
 | ------ |
-|<img src="utils/.png" alt="hi" class="inline" height="200"/>|
+|<img src="utils/acc_hist_300_0_CNN_da_bn.png" alt="hi" class="inline" height="200"/>|
 
 ### 1.3 VISUALIZATION
 
