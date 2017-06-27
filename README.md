@@ -98,6 +98,7 @@ The network is very simple and also the images which have been used to train it 
 
 In task 2, we have to also evaluate a model trained by ImageNet with the Terrassa Buildings dataset. For this purpose, we are going to explore how we can train a softmax classifier on top of the ResNet-50 trained on Imagenet. For that we are going to load first the ResNet-50. Then, we will also have to load the database. The database parsing is done on another function and the outputs are saved on "imageTrain.npy" and "labels.npy". We will also divide the database into train and test, using sklearn.
 This leads to the following results:
+
 <img src="utils/accuracyIm.png" alt="hi" height="200" class="inline"/>
 
 Epoch 20/20
@@ -109,6 +110,7 @@ As we can see the performance of the network has improved. The accuracy is almos
 Task 3 consists on fine-tunning a model trained using ImageNet, with the Terrassa Buildings dataset and validate the results with this same dataset. For this, we are going to Fine-Tune the same network of 2.2 with the Terrassa database.
 We first create the model we are going to use. In this case, we are going to train 101 layers inside the network (we will also work with a lower learning rate because we don't want to shift the pre-trained weights too much).
 Finally, we obtain the following results:
+
 <img src="utils/accurRes.png" alt="hi" height="200" class="inline"/>
 
 Epoch 25/25
@@ -120,6 +122,7 @@ We can see an improvement, but the database is small so we can't take advantage 
 During task 4 we have to improve the performance of the previous network, exploring different possibilities for obtaining better results. For this, we are going to Fine-Tune the same network of 2.2 with the Terrassa database.
 In this case, we are going to train 101 layers inside the network. We have also created a LRReducer so that we can modify the learning rate when the validation accuracy stops improving (we will also work with a lower learning rate because we don't want to shift the pre-trained weights too much). Also, we will create a data augmentation framework for the Training and Validation datasets.
 Finally, we obtain the following results:
+
 <img src="utils/accDA.png" alt="hi" height="200" class="inline"/>
 
 Being able to control the learning rate and also introduce more data to train the network, help us to improve the performance of the network and obtain a higher accuracy
