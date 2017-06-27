@@ -59,8 +59,8 @@ Finally, batch normalization mechanism which acts as a regularizer, in some case
 
 | With Batch Normalization and Dropout |
 | ------ |
-|<img src="utils/acc_hist_200_5_CNN_da_bn.png" alt="hi" class="inline" height="200"/>|
-| Validation Accuracy: 87 % |
+|<img src="utils/acc_hist_350_5_CNN_da_bn_X.png" alt="hi" class="inline" height="200"/>|
+| Validation Accuracy: 89 % |
 
 ### 1.3 VISUALIZATION
 
