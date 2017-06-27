@@ -57,6 +57,11 @@ Finally, batch normalization mechanism which acts as a regularizer, in some case
 |<img src="utils/acc_hist_300_0_CNN_da_bn.png" alt="hi" class="inline" height="200"/>|
 | Validation Accuracy: 87 % |
 
+| With Batch Normalization and Dropout |
+| ------ |
+|<img src="utils/acc_hist_200_5_CNN_da_bn.png" alt="hi" class="inline" height="200"/>|
+| Validation Accuracy: 87 % |
+
 ### 1.3 VISUALIZATION
 
 The visualizations were carried out by means of a high-level toolkit for visualization and debug of trained keras neural networks provided by [Keras-vis](https://raghakot.github.io/keras-vis/).
